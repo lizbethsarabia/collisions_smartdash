@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Seattle Traffic Collsiions in 2026</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- include google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <!-- include icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/c3.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <!-- include c3.js to make charts. c3.js is built upon d3.js -->
+    <script src="js/d3.js"></script>
+    <script src="js/c3.min.js"></script>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div id="info">
+        <div id="title">
+            Seattle Traffic Collisions by Severity in 2026
+            <span id="reset"><a href="#">reset</a></span>
+        </div>
+        <div id="count" class="card">
+            <h5 id="desc"> # Collisions in the displaying region</h5>
+            <p id="collision-count"></p>
+        </div>
+        <div id="collision-chart"></div>
+
+        <div id="footer">
+            This interactive map visualizes traffic collisions in Seattle using data from the Seattle Open Data Portal. 
+            Circle size and color represent collision severity levels:
+            <br><br>
+            <strong>Severity 1:</strong> Property Damage Only<br>
+            <strong>Severity 2:</strong> Injury Collision<br>
+            <strong>Severity 3:</strong> Fatal Collision<br><br>
+            The coordinated bar chart updates dynamically based on the current map view. Click on a bar to filter collisions by severity.            
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="legend"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
