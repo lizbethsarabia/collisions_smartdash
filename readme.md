@@ -1,3 +1,6 @@
+# AI disclosure
+AI was used in this assignement to debug, any choices made can be explained throughly.
+
 # Overview
 
 This project is an interactive Smart Dashboard that visualizes vehicle collisions in Seattle so far during the 2026 year(jan-feb). The dashboard integrates a dynamic Mapbox web map with multiple data visualization components built using C3.js.
@@ -46,3 +49,4 @@ Format: GeoJSON
 - HTML / CSS / JavaScript
 
 - GeoJSON
+
