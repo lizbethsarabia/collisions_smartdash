@@ -5,6 +5,7 @@ This project is an interactive Smart Dashboard that visualizes vehicle collision
 The goal of this dashboard is to help users explore the spatial distribution and severity of vehicle collisions and understand how patterns change based on map extent and location.
 
 This dashboard visualizes vehicle collisions by severity level.
+[link to dashboard](https://lizbethsarabia.github.io/collisions_smartdash/)
 
 # Thematic Map Type
 
@@ -43,4 +44,5 @@ Format: GeoJSON
 - C3.js – Charting library
 - D3.js – Data manipulation (dependency of C3)
 - HTML / CSS / JavaScript
+
 - GeoJSON
